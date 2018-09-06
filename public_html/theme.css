@@ -1,0 +1,103 @@
+#box{
+	border: 0;
+	width: 80%;
+	align-content: center;
+}
+h1.Headers{
+	text-align: center;
+	font-family: 'Chango', cursive;
+	color: #5780cd;
+	font-size: 40px;
+	position: relative;
+}
+
+#name{
+	text-align: center;
+	
+	position: relative;
+
+}
+
+
+img.mypicture{
+    border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+	
+}
+    
+#linktable{
+	margin-top:0px;
+
+
+}
+
+#Bio{
+	position: absolute;
+	right: 20px;
+	top: 365px;
+}
+li.getridof{
+	list-style: none;
+
+}
+#intro{
+	color:#000080;
+	text-align:center;
+}
+span.gsu{
+	color: red;
+	font-weight: bold;
+}
+
+
+#quote{
+	text-align: center;
+	word-wrap: break-word;
+	
+}
+#extraLinks{
+	position: absolute;
+ right:40px;
+ top: 760px;
+ 
+}
+table.embed{
+	border: 0;
+	width: 80%;
+	align-content: center;
+}
+
+a:hover {
+    color: #008744;
+}	
+
+
+body{
+	background-image: url("image.png");
+	font-family: sans-serif;
+
+}
+table {
+	border: 0;
+    border-spacing: 0;
+    align-content: center;
+    width: 	40%;
+    border: none;
+
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+    border: none;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+tr:nth-child(odd) {
+    background-color: #D3D3D3
+}
