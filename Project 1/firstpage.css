@@ -1,0 +1,74 @@
+body{
+	background: #0e8b44;
+	background-image: url(https://www.free-freecell-solitaire.com/solitaire/images/backgrounds/1920x1200/green_felt.jpg);
+
+}
+
+#flex-deck{
+	display: flex;
+	position: relative;
+	left: 1100px;
+	top: 550px;
+     border-radius:10px;
+     background-color:white;
+     border: 5px solid black;
+}
+
+#deckzone{
+	display: flex;
+	position: relative;
+	background-color: blue;
+	 border: 5px solid black;
+	 border-radius: 20px;
+	 left: 1100px;
+	 bottom: 150px;
+}
+#textzone{
+	display: flex;
+	position: relative;
+	background-color: red;
+	 border: 5px solid black;
+	 border-radius: 20px;
+	 top: 200px;
+	 width: 500px;
+	 height: 150px;
+
+}
+
+#playzone{
+	display: flex;
+	position: relative;
+	background-color: yellow;
+	 border: 5px solid black;
+	 border-radius: 20px;
+	 bottom:400px;
+	  width: 700px;
+
+}
+
+#point{
+	display: flex;
+	position: relative;
+	background-color: orange;
+	 border: 5px solid black;
+	 border-radius: 20px;
+	 top: -250px;
+	 right: -700px;
+	  width: 150px;
+	  height: 100px;
+
+}
+
+
+div{
+     width: 150px;
+     line-height: 150px;
+     margin:0px;
+ }
+     
+p{
+text-align: center;
+
+	color: black;
+}
+   

@@ -1,0 +1,121 @@
+#heading{
+	text-align: center;
+	font-family: 'Chango', cursive;
+	font-size: 100px
+
+}
+
+button.buttondim{
+	height: 100px;
+	width:100px;
+	top:600px;
+	position: absolute;
+	border-radius: 100%;
+	background-color: red;
+	outline-style: none;
+	font-size: 25px;
+	font-family: 'Lobster', cursive;
+
+
+
+
+}
+#play{
+	left:400px;
+}
+
+#GameRules{
+	left: 600px;
+}
+#AboutUs{
+	left: 800px;
+}
+#Ace{
+
+background-color: white;
+margin-left: 550px;
+animation-name: color;
+animation-duration: 6s;
+border-radius: 20px;
+transform: rotate(300deg);
+    animation-delay: 6s;
+
+
+}
+.cardsize{
+	width: 350px;
+	height:200px;
+	border:3px solid #021a40;
+
+	
+
+}
+
+#king{
+	background-color: white;
+    border-radius: 15px;
+    margin-left:-450px;
+    transform: rotate(75deg);
+    animation-delay: 4s;
+    animation-name: color;
+    animation-duration: 5s;
+    
+
+}
+#queen{
+	background-color: white;
+    border-radius: 15px;
+    margin-left:-300px;
+    transform: rotate(150deg);
+    animation-delay: 2s;
+    animation-name: color;
+    animation-duration: 4s;
+}
+
+#jack{
+	background-color: white;
+    border-radius: 15px;
+    margin-left: 500px;
+    transform: rotate(210deg);
+    animation-delay: 8s;
+    animation-name: color;
+    animation-duration: 8s;
+
+}
+
+#joker{
+	background-color: white;
+    border-radius: 30px;
+    transform: rotate(-210deg);
+    animation-delay: 10s;
+    animation-name: color;
+    animation-duration: 5s;
+
+}
+
+#clubs{
+	background-color: white;
+    border-radius: 20px;
+    transform: rotate(220deg);
+    animation-delay: 12s;
+    animation-name: color;
+    animation-duration: 6s;
+
+}
+ button:hover{
+ 
+  color: white;
+ }
+
+body{
+	background: #0e8b44;
+	background-image: url(https://www.free-freecell-solitaire.com/solitaire/images/backgrounds/1920x1200/green_felt.jpg);
+}
+@keyframes color{
+	0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    80% {background-color: #248F61;}
+    100%{background-color: white;}
+}
+
