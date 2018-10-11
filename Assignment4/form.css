@@ -1,0 +1,201 @@
+body {
+	background-image: url(nature.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Lato', Arial, sans-serif;
+	margin:0;
+	padding:0;
+	padding-bottom:40px;
+	margin-right: 60%;
+	margin-left: left 60%;
+	
+
+}
+
+
+.formstyle input[type="text"],
+.formstyle select{
+	padding:10px;
+	width:50%;
+	border:none;
+	height:50px;	
+	line-height:50px;  
+    background: rgba(255,255,255,0.5);
+    font-size: 15px;
+}
+.formstyle .first {
+    float: left;
+    width: 48%;
+	margin-right:4%
+}
+.formstyle .last{
+	margin-right:48%;	
+}
+#fstyle{
+	position: relative;
+	left: 32%;
+	bottom:255px;
+	width: 54%;
+	height: 60px;
+	
+}
+#fsize{
+	position: relative;
+	right: 25.5%;
+	width: 54%;
+	height: 60px;
+	top: -50px;
+}
+#fcolor{
+	position: relative;
+	/*bottom:132px;
+	left: 15.5%;*/
+	width: 54%;
+	height: 60px;
+	top: -202px;
+	left: 32%;
+
+}
+#text{
+	position: relative;
+	bottom: 150px;
+	right:125px;
+	width: 600px;
+	height: 120px;
+	/*border: 3px solid #cccccc;*/
+	padding: 5px;
+	background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+
+
+}
+
+#fname{
+	position: relative;
+	left: -150px;
+
+}
+#lname{
+	position: relative;
+	bottom: 86px;
+	right: -200px;
+
+}
+
+#add{
+	position: relative;
+	left: -150px;
+	top: -50px;
+}
+#phonen{
+	position: relative;
+	right: -200px;
+	top: -136px;
+}
+#ema{
+	position: relative;
+	left: -150px;
+	top:-100px;
+
+}
+
+#btn{
+	position: relative;
+	bottom: 165px;
+	left: 20px;
+	-moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+	-webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:25px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#btn1{
+	position: relative;
+	bottom: 165px;
+	-moz-box-shadow: 0px 1px 0px 0px #1c1b18;
+	-webkit-box-shadow: 0px 1px 0px 0px #1c1b18;
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+	background:-moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:-ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eae0c2', endColorstr='#ccc2a6',GradientType=0);
+	background-color:#eae0c2;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:25px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+
+	left: 200px;
+}
+
+::placeholder{
+	color: black;
+	font-weight: bold;
+	font-family:Arial;
+	font-size: 20px;
+}
+.ff{
+	color: black;
+	font-weight: bold;
+	font-family:Arial;
+	font-size: 20px;
+
+}
+div {
+    display: flex;
+    display: inline-block;
+    position: relative;
+    right: -35%;
+    height: 800px;
+    background-image: url(test.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+h1{
+	position: relative;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+}
+a{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
